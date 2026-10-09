@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bern-001",
+    "dialect_phrase": "Grüessech!",
+    "standard_german": "Guten Tag!",
+    "english": "Hello! / Good day!",
+    "context": "Polite greeting"
+  },
+  {
+    "id": "bern-002",
+    "dialect_phrase": "Wie geit's der?",
+    "standard_german": "Wie geht es dir?",
+    "english": "How are you?",
+    "context": "Informal greeting"
+  },
+  {
+    "id": "bern-003",
+    "dialect_phrase": "Guet, danke!",
+    "standard_german": "Gut, danke!",
+    "english": "Good, thanks!",
+    "context": "Response to a greeting"
+  },
+  {
+    "id": "bern-004",
+    "dialect_phrase": "Was darfs sii?",
+    "standard_german": "Was darf es sein?",
+    "english": "What would you like?",
+    "context": "Shop or bakery"
+  },
+  {
+    "id": "bern-005",
+    "dialect_phrase": "Ich hätt gärn es Gipfeli.",
+    "standard_german": "Ich hätte gern ein Gipfeli.",
+    "english": "I would like a croissant.",
+    "context": "Ordering food"
+  },
+  {
+    "id": "bern-006",
+    "dialect_phrase": "Merci.",
+    "standard_german": "Danke.",
+    "english": "Thank you.",
+    "context": "Everyday thanks"
+  },
+  {
+    "id": "bern-007",
+    "dialect_phrase": "Chunsch au?",
+    "standard_german": "Kommst du auch?",
+    "english": "Are you coming too?",
+    "context": "Informal conversation"
+  },
+  {
+    "id": "bern-008",
+    "dialect_phrase": "Was machsch hüt?",
+    "standard_german": "Was machst du heute?",
+    "english": "What are you doing today?",
+    "context": "Informal conversation"
+  },
+  {
+    "id": "bern-009",
+    "dialect_phrase": "Wo isch Gleis vier?",
+    "standard_german": "Wo ist Gleis vier?",
+    "english": "Where is platform four?",
+    "context": "Train station"
+  },
+  {
+    "id": "bern-010",
+    "dialect_phrase": "Ich verstah's nöd.",
+    "standard_german": "Ich verstehe es nicht.",
+    "english": "I don't understand.",
+    "context": "Communication difficulty"
+  }
+]

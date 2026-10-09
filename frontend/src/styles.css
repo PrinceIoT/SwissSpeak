@@ -1,0 +1,426 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+
+  color: #14243a;
+  background: #f4f6f8;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.landing {
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+
+  padding: 30px;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      #e8eef6,
+      transparent 40%
+    ),
+    #f4f6f8;
+}
+
+.hero {
+  width: min(850px, 100%);
+  text-align: center;
+}
+
+.flag {
+  font-size: 50px;
+}
+
+.eyebrow {
+  color: #d71920;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.18em;
+}
+
+.hero h1 {
+  font-size:
+    clamp(
+      40px,
+      6vw,
+      70px
+    );
+
+  line-height: 1;
+
+  letter-spacing: -0.05em;
+
+  margin: 20px 0;
+}
+
+.subtitle {
+  max-width: 650px;
+
+  margin: 0 auto 30px;
+
+  color: #657385;
+
+  font-size: 18px;
+
+  line-height: 1.6;
+}
+
+.setup {
+  max-width: 540px;
+
+  margin: auto;
+
+  padding: 28px;
+
+  background: white;
+
+  border:
+    1px solid
+    #dde4eb;
+
+  border-radius: 22px;
+
+  box-shadow:
+    0 20px 50px
+    rgba(20, 36, 58, 0.08);
+
+  text-align: left;
+}
+
+.setup label {
+  display: grid;
+
+  gap: 8px;
+
+  margin-bottom: 18px;
+
+  font-weight: 700;
+}
+
+select,
+input {
+  padding: 13px;
+
+  border:
+    1px solid
+    #d3dbe4;
+
+  border-radius: 11px;
+
+  background: white;
+}
+
+.primary {
+  border: 0;
+
+  border-radius: 11px;
+
+  padding: 13px 18px;
+
+  background: #d71920;
+
+  color: white;
+
+  font-weight: 800;
+}
+
+.setup .primary {
+  width: 100%;
+}
+
+.header {
+  height: 70px;
+
+  padding: 0 28px;
+
+  display: flex;
+
+  align-items: center;
+
+  background: #102238;
+
+  color: white;
+}
+
+.header strong {
+  display: block;
+}
+
+.header span {
+  color: #aebaca;
+
+  font-size: 12px;
+}
+
+.workspace {
+  min-height:
+    calc(100vh - 70px);
+
+  width: min(
+    1300px,
+    100%
+  );
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns:
+    270px 1fr;
+}
+
+.sidebar {
+  padding: 25px 16px;
+
+  background: #eef2f6;
+
+  border-right:
+    1px solid
+    #dce3ea;
+}
+
+.lesson {
+  width: 100%;
+
+  padding: 13px;
+
+  margin-bottom: 6px;
+
+  text-align: left;
+
+  background: transparent;
+
+  border: 1px solid transparent;
+
+  border-radius: 11px;
+
+  display: grid;
+
+  gap: 4px;
+}
+
+.lesson small {
+  color: #7a8796;
+}
+
+.lesson.active {
+  background: white;
+
+  border-color:
+    #d8e0e8;
+
+  box-shadow:
+    0 7px 20px
+    rgba(20, 36, 58, 0.05);
+}
+
+.conversation {
+  display: grid;
+
+  grid-template-rows:
+    auto 1fr auto auto;
+}
+
+.scenario {
+  padding: 25px 30px;
+
+  background: white;
+
+  border-bottom:
+    1px solid
+    #dce3ea;
+}
+
+.scenario h2 {
+  margin: 0 0 5px;
+}
+
+.scenario p:not(.eyebrow) {
+  margin: 0;
+
+  color: #728092;
+}
+
+.chat {
+  padding: 30px;
+
+  min-height: 430px;
+
+  overflow-y: auto;
+}
+
+.empty {
+  max-width: 420px;
+
+  margin: 100px auto;
+
+  text-align: center;
+
+  color: #728092;
+}
+
+.empty div {
+  font-size: 50px;
+}
+
+.message {
+  max-width: 75%;
+
+  padding: 13px 16px;
+
+  margin: 12px 0;
+
+  border-radius: 18px;
+
+  line-height: 1.5;
+}
+
+.message.user {
+  margin-left: auto;
+
+  background: #102238;
+
+  color: white;
+
+  border-bottom-right-radius: 5px;
+}
+
+.message.assistant {
+  background: white;
+
+  border:
+    1px solid
+    #dce3ea;
+
+  border-bottom-left-radius: 5px;
+}
+
+.feedback {
+  margin: 0 30px 16px;
+
+  padding: 15px;
+
+  background: white;
+
+  border:
+    1px solid
+    #dce3ea;
+
+  border-radius: 13px;
+
+  display: grid;
+
+  gap: 10px;
+}
+
+.feedback p {
+  margin: 4px 0;
+
+  color: #657385;
+}
+
+.error {
+  margin: 0 30px 15px;
+
+  padding: 12px;
+
+  color: #9d151b;
+
+  background: #fff0f0;
+
+  border-radius: 10px;
+}
+
+.composer {
+  display: grid;
+
+  grid-template-columns:
+    52px 1fr auto;
+
+  gap: 9px;
+
+  padding: 18px;
+
+  background: white;
+
+  border-top:
+    1px solid
+    #dce3ea;
+}
+
+.mic {
+  border:
+    1px solid
+    #ccd5df;
+
+  border-radius: 11px;
+
+  background: white;
+}
+
+.mic.recording {
+  background: #d71920;
+
+  color: white;
+}
+
+@media (
+  max-width: 800px
+) {
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    border-right: 0;
+
+    border-bottom:
+      1px solid
+      #dce3ea;
+
+    overflow-x: auto;
+  }
+
+  .lesson {
+    width: 190px;
+
+    display: inline-grid;
+
+    margin-right: 5px;
+  }
+
+  .composer {
+    grid-template-columns:
+      50px 1fr;
+  }
+
+  .composer .primary {
+    grid-column:
+      1 / -1;
+  }
+}

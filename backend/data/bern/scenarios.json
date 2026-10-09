@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bakery",
+    "name": "At the bakery",
+    "description": "Buy a simple breakfast item in a Bern bakery.",
+    "objectives": [
+      "greeting",
+      "ordering",
+      "polite response"
+    ]
+  },
+  {
+    "id": "train",
+    "name": "At the train station",
+    "description": "Ask for a platform and understand a short travel question.",
+    "objectives": [
+      "asking directions",
+      "platform vocabulary",
+      "short questions"
+    ]
+  },
+  {
+    "id": "restaurant",
+    "name": "At a restaurant",
+    "description": "Order a meal and interact politely with staff.",
+    "objectives": [
+      "ordering",
+      "food vocabulary",
+      "polite requests"
+    ]
+  },
+  {
+    "id": "workplace",
+    "name": "At work",
+    "description": "Have a short informal conversation with a Swiss-German-speaking colleague.",
+    "objectives": [
+      "greetings",
+      "workplace questions",
+      "informal requests"
+    ]
+  },
+  {
+    "id": "social",
+    "name": "Meeting someone",
+    "description": "Introduce yourself and have a simple social conversation.",
+    "objectives": [
+      "introductions",
+      "where you live",
+      "hobbies"
+    ]
+  }
+]
